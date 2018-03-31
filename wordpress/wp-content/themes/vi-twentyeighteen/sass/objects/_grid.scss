@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 2em;
+
+    @media (min-width: $md) {
+        flex-direction: row;
+    }
+}
+
+.column {
+    width: 100%;
+
+    @media (min-width: $md) {
+        width: 30%;
+    }
+}
+
+.column-text {
+    padding: 1em 0;
+    line-height: 20px;
+}
+
+.row {
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+    padding: 3em 2em;
+}

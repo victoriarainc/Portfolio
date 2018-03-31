@@ -1,0 +1,10 @@
+blockquote {
+    padding: 1em;
+    line-height: 30px;
+    font-size: 25px;
+    color: $vi-red;
+
+    @media (min-width: $md) {
+        padding: 2em;
+    }
+}
