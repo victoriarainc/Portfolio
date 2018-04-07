@@ -7,9 +7,9 @@
 		</div><!-- .site-content -->
 
 		<footer> <!-- Footer -->
-			<section class="row">
+			<div class="row">
 				<p class="footer-text">You got to the end! You must like what you see.</p>
-			</section>
+			</div>
 		</footer>
 
 	</div><!-- .site-inner -->

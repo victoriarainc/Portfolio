@@ -1,0 +1,101 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.reference-name {
+  padding: 0 1.5em;
+}
+
+footer {
+  background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+  padding: 1.5em;
+}
+
+.footer-text {
+  color: white;
+  font-weight: bolder;
+}
+
+.cta {
+  padding: 0 2em;
+}
+
+.icon {
+  color: #D3234D;
+  font-size: 40px;
+}
+
+.slideshow {
+  dispay: flex;
+  justify-content: space-between;
+}
+
+.ngg-slideshow {
+  text-align: left;
+  padding: 1em;
+}
+
+blockquote {
+  padding: 0 1em;
+  line-height: 30px;
+  font-size: 25px;
+  color: #D3234D;
+}
+@media (min-width: 760px) {
+  blockquote {
+    padding: 0 2em;
+  }
+}
+
+body {
+  font-family: "Raleway", monospace;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+h1 {
+  font-size: 55px;
+  font-weight: bolder;
+  text-transform: lowercase;
+  letter-spacing: 3px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1em 1.5em;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 2em;
+}
+@media (min-width: 760px) {
+  .container {
+    flex-direction: row;
+  }
+}
+
+.column {
+  width: 100%;
+}
+@media (min-width: 760px) {
+  .column {
+    width: 30%;
+  }
+}
+
+.column-text {
+  padding: 0.5em 0;
+  line-height: 20px;
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+}

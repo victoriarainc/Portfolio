@@ -5,16 +5,14 @@ get_header(); ?>
 <div id="primary" class="content-area">
 	<main id="main" class="site-main" role="main">
 		<?php
-		// Start the loop.
-		while ( have_content() ) : the_content();
+		while (have_posts()):
+			the_post();
 
-			// Include the page content template.
-			get_template_part( 'template-parts/content', 'page' );
+			the_content();
 
-			// End of the loop.
-		endwhile;
+			get_template_part('content', 'page');
+		endwhile
 		?>
-
 	</main><!-- .site-main -->
 
 	<?php get_sidebar( 'content-bottom' ); ?>
